@@ -13,6 +13,7 @@ package classroom{
     usecase "Ntahlah" as U7
 }
 
+'selesai 
 mhs --> U1
 U1 .> U2
 U1 .> U3
