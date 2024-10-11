@@ -16,7 +16,7 @@ package classroom{
     usecase "blm keisi" as U7
 }
 
-'selesai
+'proses selesai
 
 mhs --> U1
 U1 .> U2
