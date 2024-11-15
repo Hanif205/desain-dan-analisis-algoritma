@@ -1,0 +1,24 @@
+@startuml Fakultas
+title Flowchart untuk Seeder Fakultas
+
+start
+
+:Mulai Seeder Fakultas;
+
+:Definisikan array data Fakultas;
+
+repeat
+:Ambil satu record dari array;
+
+if (Apakah record sudah ada di tabel?) then (Ya)
+  :Lewati record;
+else (Tidak)
+  :Simpan record ke tabel Fakultas;
+endif
+
+repeat while (Masih ada record di array?)
+
+:Seeder selesai;
+stop
+
+@enduml

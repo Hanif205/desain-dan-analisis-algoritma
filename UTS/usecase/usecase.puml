@@ -1,0 +1,20 @@
+@startuml fakultas
+title Use Case Diagram untuk Aplikasi data fakultas
+
+actor Admin
+actor Mahasiswa
+
+rectangle "Sistem Manajemen Data Guru" {
+  Admin -- (Login)
+  Admin -- (Tambah Data Pada Fakultas)
+  Admin -- (Edit Data Pada Fakultas)
+  Admin -- (Hapus Data Fakultas)
+  Admin -- (Kelola Fakultas)
+
+  Mahasiswa -- (Login)
+  Mahasiswa -- (Lihat Daftar Fakultas)
+
+  (Login) .> (Lihat Daftar Fakultas) : include
+}
+
+@enduml
